@@ -1,0 +1,12 @@
+name: VulpineEconomy
+version: '${version}'
+main: pl.net.eerie.vulpineeconomy.VulpineEconomy
+api-version: 1.19
+prefix: FoxEco
+authors: [ 4372696D736F6E ]
+description: Ded shrimple Vault Economy Plugin
+depend:
+  - Vault
+libraries:
+  - "redis.clients:jedis:2.8.1"
+#  - "com.j256.ormlite:ormlite-jdbc:6.1"
